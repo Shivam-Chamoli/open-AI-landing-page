@@ -8,12 +8,15 @@ import {
   Features,
   Possibility,
 } from "./containers";
+import "./app.css";
 
 const App = () => {
   return (
     <div id="App">
-      <h1> App </h1>
-      <Header />
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Footer />
       <Blog />
       <WhatGpt3 />
@@ -23,7 +26,6 @@ const App = () => {
       <Brand />
       <Feature />
       <Cta />
-      <Navbar />
     </div>
   );
 };
