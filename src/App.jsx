@@ -17,15 +17,14 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <Footer />
-      <Blog />
+      <Brand />
       <WhatGpt3 />
-      <Features />
+
+      <Blog />
       <Possibility />
       <Article />
-      <Brand />
-      <Feature />
       <Cta />
+      <Footer />
     </div>
   );
 };
